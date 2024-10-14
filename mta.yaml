@@ -1,0 +1,10 @@
+_schema-version: "3.2"
+ID: ext-vue-app
+version: 0.0.1
+provider: SAP
+modules:
+- name: vue-app-demo
+ type: single-page-app
+ path: dist
+parameters:
+ deploy_mode: b1-webclient
